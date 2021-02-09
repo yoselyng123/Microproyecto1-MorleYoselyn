@@ -105,7 +105,7 @@ body {
 .carrousel{
   width: 100%;
   position: relative;
-  height: 750px;
+  height: 715px;
 }
 
 img{
@@ -189,7 +189,34 @@ img{
   padding-bottom: 15px;
 }
 
-
-
-
 /* Experience */
+
+.Experience{
+  padding: 60px;
+  background-color: #4c0d09;
+  color: #d3b2af;
+}
+
+.Experience .proyectos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.Experience .proyectos img{
+
+  width: 250px;
+  height: 300px;
+  align-items: center;
+
+}
+
+.Experience h2{
+  color: #d3b2af;
+  font-family: 'Chelsea Market', Georgia, serif;
+  text-transform: lowercase;
+  font-weight: normal;
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 40px;
+}
