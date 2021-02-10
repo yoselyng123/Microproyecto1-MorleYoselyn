@@ -290,3 +290,10 @@ img{
 .contactMe .boton{
   text-align: center;
 }
+
+/* Skills */
+.skills{
+  height: 500px;
+  background-color: #fff8c9;
+  color: #615400;
+}
