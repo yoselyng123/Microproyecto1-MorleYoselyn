@@ -96,7 +96,12 @@ body {
   border-radius: 5px;
   border: none;
 }
-.header .menu .navbar li:hover {
+
+.header .menu .navbar a{
+  text-decoration: none;
+  color: #000;
+}
+.header .menu .navbar a:hover {
   color: #888BC4;
 }
 
@@ -192,12 +197,13 @@ img{
 /* Experience */
 
 .Experience{
-  padding: 60px;
+  
   background-color: #4c0d09;
   color: #d3b2af;
 }
 
 .Experience .proyectos{
+  padding: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
@@ -213,10 +219,74 @@ img{
 
 .Experience h2{
   color: #d3b2af;
-  font-family: 'Chelsea Market', Georgia, serif;
-  text-transform: lowercase;
-  font-weight: normal;
+  padding-top: 40px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 70px;
+  font-weight: normal;
+  margin: 0;
+  font-family: 'Chelsea Market', Georgia, serif;
+  text-transform: lowercase;
+}
+
+/* Contact Me */
+
+.contactMe{
+  background-color: #cc4037;
+  height: 510px;
+}
+
+.contactMe h2{
+  padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0;
+  color: #4c0d09;
+  font-family: 'Chelsea Market', Georgia, serif;
+  text-transform: lowercase;
+}
+
+.contactMe .nombre{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  
+}
+.contactMe input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.contactMe .mensaje{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.contactMe .mensaje input{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  
+}
+
+.contactMe p{
+  color: #4c0d09;
+  text-align: center;
+
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-family: 'Chelsea Market', Georgia, serif;
+}
+
+.contactMe .email{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.contactMe .boton{
+  text-align: center;
 }

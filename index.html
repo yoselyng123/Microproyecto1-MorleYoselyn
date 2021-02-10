@@ -16,10 +16,11 @@
         </div>
         
         <ul class="navbar" id="menuContainer">
-          <li>About Me</li>
-          <li>Experience</li>
-          <li>Skills</li>
-          <li>Contact Me</li>
+          
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#aboutme">Skills</a></li>
+          <li><a href="contactMe">Contact Me</a></li>
         </ul>
       </nav>
       
@@ -40,7 +41,7 @@
 
     </section>
 
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
       
       <h2>About Me</h2>
       
@@ -79,7 +80,7 @@
     
     <!-- EXPERIENCE -->
     
-    <section class="Experience">
+    <section class="Experience" id="Experience">
 
       <h2>Experience</h2>
 
@@ -106,6 +107,36 @@
       </div>
 
     </section>
+
+    <!--Contact Me-->
+
+    <section class="contactMe" id="contactMe">
+      
+      <h2>Contact Me</h2>
+      
+      <p>Si deseas contactarme, me puedes escribir un mensaje en la casilla de abajo!</p>
+      <form>
+
+        <div class="nombre">
+          <input type="text" placeholder="Nombre" required>
+        </div>
+  
+        <div class="email">
+          <input type="text" placeholder="direccion de email" type="email" required>
+        </div>
+  
+        <div class="mensaje">
+          <input type="text" placeholder="mensaje" required>
+        </div>
+        
+        <div class="boton">
+          <button>Enviar</button>
+        </div>
+
+      </form>
+
+    </section>
+
 
     <script src="./main.js"></script>
   </body>
