@@ -1,3 +1,4 @@
+// Carrousel
 var imagenes = ['img/C1.jpg', 'img/C2.jpg', 'img/C3.jpeg', 'img/C4.jpg', 'img/C.jpeg'];
 var cont = 0;
 
@@ -37,3 +38,28 @@ document.addEventListener("DOMContentLoaded", () => {
     let contenedor = document.querySelector('.carrousel')
     carrousel(contenedor);
 });
+
+// Sent Alert
+
+function sent() {
+    alert('Mensaje Enviado!');
+}
+
+document.getElementById('ContactMeBtn').onclick = test;
+
+// Validate
+
+function validate(){
+
+    if( (document.myForm.mail.value).includes("@") ){
+        alert("Solicitud enviada con exito!");
+        return true;
+    } 
+    else{
+
+        alert("Por favor ingrese un correo valido");
+        return false;
+
+    }
+
+}

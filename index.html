@@ -20,7 +20,7 @@
           <li><a href="#aboutme">About Me</a></li>
           <li><a href="#Experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#contactMe">Contact Me</a></li>
+          <li><a href="#contactMe1">Contact Me</a></li>
         </ul>
       </nav>
       
@@ -110,37 +110,51 @@
 
     <!--Contact Me-->
 
-    <section class="contactMe" id="contactMe">
+    <section class="contactMe" id="contactMe1">
       
       <h2>Contact Me</h2>
       
       <p>Si deseas contactarme, me puedes escribir un mensaje en la casilla de abajo!</p>
-      <form>
+      <form name = "myForm" onsubmit= "return(validate())">
 
         <div class="nombre">
-          <input type="text" placeholder="Nombre" required>
+          <input name="name" type="text" placeholder="Nombre" required>
         </div>
   
         <div class="email">
-          <input type="text" placeholder="direccion de email" type="email" required>
+          <input name="mail" type="text" placeholder="direccion de email" type="email" required>
         </div>
   
         <div class="mensaje">
-          <input type="text" placeholder="mensaje" required>
+          <input name="mensaje" type="text" placeholder="mensaje" required>
         </div>
         
         <div class="boton">
-          <button>Enviar</button>
+          <input class = "enviar" type="submit" value="Enviar">
         </div>
 
       </form>
+
+      <div class="twitter">
+        <a href=""> Twitter </a>
+      </div>
+
+      <div class="insta">
+        <a href="https://www.instagram.com/yoselynmorle/"> Instagram </a>
+      </div>
+
+      <div class="whatsapp">
+        <a href="https://wa.me/<+584142331302>">Whatsapp</a>
+      </div>
+
+      
 
     </section>
 
     <!--Skills-->
     <section class="skills" id="skills">
 
-      
+      <h2>Skills</h2>
 
     </section>
 

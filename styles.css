@@ -233,7 +233,7 @@ img{
 
 .contactMe{
   background-color: #cc4037;
-  height: 510px;
+
 }
 
 .contactMe h2{
@@ -289,6 +289,32 @@ img{
 
 .contactMe .boton{
   text-align: center;
+  padding-bottom: 20px;
+}
+
+.contactMe .twitter{
+  text-align: center;
+  padding: 20px;
+  border-top: #000;
+  background-color: #4c0d09;
+}
+.contactMe .insta{
+  text-align: center;
+  padding: 20px;
+  background-color: #2e0704;
+}
+.contactMe .whatsapp{
+  text-align: center;
+  padding: 20px;
+  background-color: #4c0d09;
+}
+
+.contactMe a{
+  text-decoration: none;
+  color:#f4f4f4;
+}
+.contactMe a:hover {
+  color: #888BC4;
 }
 
 /* Skills */
@@ -296,4 +322,16 @@ img{
   height: 500px;
   background-color: #fff8c9;
   color: #615400;
+}
+
+.skills h2{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0;
+  color: #2d2700;
+  font-family: 'Chelsea Market', Georgia, serif;
+  text-transform: lowercase;
 }
